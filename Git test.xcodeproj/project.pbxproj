@@ -21,6 +21,7 @@
 		04199452193798760089E457 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04199434193798760089E457 /* UIKit.framework */; };
 		0419945A193798760089E457 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04199458193798760089E457 /* InfoPlist.strings */; };
 		0419945C193798760089E457 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419945B193798760089E457 /* Git_testTests.m */; };
+		041994671938E9020089E457 /* PATeste2.m in Sources */ = {isa = PBXBuildFile; fileRef = 041994661938E9020089E457 /* PATeste2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04199457193798760089E457 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		04199459193798760089E457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0419945B193798760089E457 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		041994651938E9020089E457 /* PATeste2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PATeste2.h; sourceTree = "<group>"; };
+		041994661938E9020089E457 /* PATeste2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PATeste2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		04199424193798760089E457 = {
 			isa = PBXGroup;
 			children = (
+				041994651938E9020089E457 /* PATeste2.h */,
+				041994661938E9020089E457 /* PATeste2.m */,
 				04199436193798760089E457 /* Git test */,
 				04199455193798760089E457 /* Git testTests */,
 				0419942F193798760089E457 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0419943D193798760089E457 /* main.m in Sources */,
+				041994671938E9020089E457 /* PATeste2.m in Sources */,
 				04199447193798760089E457 /* PAViewController.m in Sources */,
 				04199441193798760089E457 /* PAAppDelegate.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				04199461193798760089E457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04199462193798760089E457 /* Build configuration list for PBXNativeTarget "Git testTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				04199464193798760089E457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
